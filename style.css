@@ -80,3 +80,54 @@ html {
 .chat-send-btn:hover {
   background-color: #f0f0f0;
 }
+
+/* .chat-icons {
+  background-color: #f1f1f1;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-icons i {
+  font-size: 18px;
+  margin-left: 15px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.chat-icons i:hover {
+  color: #007bff;
+} */
+
+.chat-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  height: 60px;
+  padding: 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-icons i {
+  font-size: 20px;
+  color: #333;
+  margin-left: 20px; /* Space between icons */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.chat-icons i:first-child {
+  margin-left: 0; /* Remove margin from first icon */
+}
+
+.chat-icons i:hover {
+  color: #007bff; /* Hover effect */
+}
+
+.fa-circle-user:before,
+.fa-user-circle:before {
+  content: "\f2bd";
+  font-size: 50px;
+}
